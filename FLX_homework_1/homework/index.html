@@ -1,0 +1,170 @@
+﻿ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Basics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="main">
+      <div id="container">
+          <div id="content" role="main">
+              <div><img src="logo.png" /></div>
+              <h1><b>HTML Elements</b></h1>
+              <hr />
+              <nav>
+              <a href="#"><u>Home</u></a>
+              <a href="#"><u>Headers</u></a>
+              <a href="#"><u>Table</u></a>
+              <a href="#"><u>List</u></a>
+              <a href="#"><u>Text formats</u></a>
+              <a href="#"><u>Blockquotes</u></a>
+                  </nav>
+              <hr />
+              <p>
+                  Pay attention to h1 tag inside section element. Font-size for h1 is the same as font-size for h2, because we have to use only one h1 on the page, and it is commonly used inside header
+              </p>
+              <h2>Header 2</h2>
+              <h3>Header 3</h3>
+              <h4>Header 4</h4>
+              <h5>Header 5</h5>
+              <h6>Header 6</h6>
+              <hr />
+              <p>
+                  Lorem ipsum dolor sit amet, <a href="">test link</a> adipiscing elit. <b>This is strong</b>. Nullam dignissim convallis est. Quisque aliquam. <cite>This is emphasized</cite> . Donec faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup> = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <cite>The New York Times</cite> (That’s a citation).<u>Underline</u> . Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
+              </p>
+              <p>
+                  <abbr>HTML</abbr> and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type <samp> COPY</samp> <cite>filename</cite> . <del>Dinner`s at 5:00</del> . <mark>Let’s make that 7</mark> . This <del>text</del> has been struck.
+              </p>
+              <hr />
+              <h1>Table</h1>
+              <table>
+                  <thead>
+                  <th>Header</th>
+                  <th>Header</th>
+                  <th>header</th>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>Lviv</td>
+                          <td>Kyiv</td>
+                          <td>Kharkiv</td>
+                      </tr>
+                      <tr>
+                          <td>Odessa</td>
+                          <td>Zhytomyr</td>
+                          <td>Dnipropetrovsk</td>
+                      </tr>
+                      <tr>
+                          <td>Sumy</td>
+                          <td>Chernivtsi</td>
+                          <td>Lutsk</td>
+                      </tr>
+                  </tbody>
+              </table>
+              <h1>Unordered List</h1>
+              <ul>
+                  <li>List item 1</li>
+                  <li>
+                      List item 2
+                      <ul>
+                          <li>Some nested list item 1</li>
+                      </ul>
+                  </li>
+                  <li>List item 3</li>
+              </ul>
+              <h1>Ordered List</h1>
+              <ol>
+                  <li>List item 1</li>
+                  <li>
+                      List item 2
+                      <ol>
+                          <li>Some nested list item 1</li>
+                      </ol>
+                  </li>
+                  <li>List item 3</li>
+              </ol>
+              <dl>
+                  <dt>defines terms 1</dt>
+                  <dd>description 1</dd>
+                  <dt>defines terms 2</dt>
+                  <dd>description </dd>
+              </dl>
+              <p>
+                  Details
+                  <select>
+                      <option>HTML</option>
+                      <option>CSS</option>
+                      <option>JS</option>
+                  </select>
+              </p>
+              <hr />
+              <h1>Text formats</h1>
+              <section>
+                  <h3>Article Text</h3>
+                  <section>
+                      <h2>Article title</h2>
+                      <section>
+                          <h5>Article description</h5>
+                      </section>
+                  </section>
+              </section>
+              <h1>Prefomatted text</h1>
+              <pre>
+ Text
+  in a pre element
+    is displayed in a fixed-width
+font, and it preserves
+both           spaces and
+    line breaks
+</pre>
+              <h1>Code</h1>
+              
+      <pre>
+      <code>
+  .wrapper {
+   display: flex;
+   vertical-align: middle;
+   justify-content: center;
+  }
+       </code>
+       </pre>
+              
+              <h1>
+                  Blockquotes
+              </h1>
+              <p>Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</p>
+              <blockquote>
+                  "If you go back a few hundred years, what we take for granted today would seem like magic-being able to talk to people over long distances, to transmit images, flying, accessing vast amounts of data like an oracle. These are all things that would have been considered magic a few hundred years ago."<br />
+                  <a href="#"><u>Elon Musk</u></a>
+
+              </blockquote>       
+              <hr />
+              <form>
+                  <p>
+                      First name: <input />
+                  </p>
+              </form>
+              <form>
+                  <p>
+                      Surname: <input />
+                  </p>
+              </form>
+              <form>
+                  <p>
+                  Email :<input />
+                     </p>
+                      <textarea cols="20" rows="10"></textarea>
+                  <p><button>Submit</button></p>
+              </form>
+              <footer>© Copyright Epam Systems</footer>
+                  </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
