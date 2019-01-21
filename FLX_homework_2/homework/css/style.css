@@ -1,0 +1,218 @@
+@media print {
+    .flex-2-col {
+        display: flex;
+        align-items: center;
+    }
+
+    .tm-team-description-container .tm-section-title {
+        margin-top: 220px;
+        margin-left: 10px;
+    }
+
+    .blocks .tm-team-description-container .tm-section-title {
+        margin-top: 0;
+    }
+
+    body {
+        background: transparent;
+        padding-top: 0;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    section:not(:first-of-type) {
+        display: none;
+    }
+
+    #about,
+    .tm-sidebar {
+        display: none;
+    }
+
+    .padding-medium,
+    .tm-banner {
+        padding: 0;
+    }
+
+    .tm-banner {
+        margin-top: 100px;
+    }
+
+    .flex-item > img {
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 300px;
+        height: 180px;
+    }
+
+    .tm-content-box .tm-team-description-container {
+        width: 420px;
+    }
+
+    .tm-team-description-container .tm-section-title {
+        margin-top: 0;
+    }
+
+    p::first-letter {
+        color: #87CEFA;
+        font-size: 30px;
+    }
+
+    p:not(.tm-banner-text) {
+        line-height: 2em;
+        text-indent: 1em;
+    }
+
+    h2 + p {
+        font-style: italic;
+    }
+
+    .tm-team-description-container > .tm-section-title {
+        color: #283bec;
+    }
+}
+
+@media screen {
+    #about h2 {
+        letter-spacing: 1px;
+    }
+
+    .box-bg h2:hover {
+        background-color: #87cefa;
+        color: white;
+        font-weight: bold;
+    }
+
+    .tm-content-box .tm-section-description::first-letter, .tm-banner-text::first-letter {
+        color: #87CEFA;
+        font-size: 30px;
+    }
+
+    .tm-sidebar,
+    .tm-content-header,
+    section {
+        box-shadow: 0 0 12px 4px #808080;
+    }
+
+    #home .tm-banner {
+        background-color: #E8E8E8;
+    }
+
+    .tm-banner-inner {
+        background-color: #fff;
+    }
+
+    .blocks div:nth-child(2) {
+        box-shadow: none;
+    }
+
+    section {
+        position: relative;
+    }
+
+        section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-top: 2em solid #2aabd2;
+            border-right: 16em solid transparent;
+            z-index: 1;
+        }
+
+    .tm-section-title {
+        color: gainsboro;
+        letter-spacing: 5px;
+    }
+
+    h2 + p {
+        font-style: italic;
+    }
+
+    p:not(.tm-banner-text) {
+        line-height: 2em;
+        text-indent: 1em;
+    }
+
+    .flex-2-col {
+        display: flex;
+    }
+
+    .tm-team-description-container .tm-section-title {
+        margin-top: 220px;
+    }
+
+    .blocks .tm-team-description-container .tm-section-title {
+        margin-top: 0;
+    }
+
+    .padding-medium ol li a {
+        color: #000;
+    }
+
+        .padding-medium ol li a:visited {
+            text-decoration-line: underline;
+        }
+
+        .padding-medium ol li a:hover {
+            text-decoration: underline;
+            text-decoration-style: double;
+            color: #6bdcff;
+        }
+
+    .text {
+        position: relative;
+    }
+
+        .text::after {
+            content: "New";
+            position: absolute;
+            top: 0;
+            color: #FF0000;
+            font-size: 10px;
+        }
+
+    .box:nth-child(even) {
+        background-color: #e2e2e2;
+    }
+
+    .box-work {
+        padding: 10px;
+    }
+
+        .box-work p::first-letter {
+            color: black;
+            font-size: 30px;
+        }
+
+        .box-work p {
+            text-indent: 0;
+        }
+
+    .submit-btn {
+        position: absolute;
+        right: 40px;
+        bottom: 5px;
+        background-color: #fff;
+        border-color: #6bdcff;
+        color: #6bdcff;
+        height: 45px;
+        width: 150px;
+        border-radius: 0;
+    }
+
+        .submit-btn:hover {
+            background-color: #9fd8fb;
+            color: #fff;
+        }
+
+    .mandatory-field::after {
+        content: "*";
+        color: red;
+        font-weight: bold;
+    }
+
+    .tm-nav-item:hover {
+        background-color: #e2e2e2;
+    }
+}
